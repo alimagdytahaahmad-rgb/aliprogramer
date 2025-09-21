@@ -1,9 +1,7 @@
 h1{
     color: red;
 }
-hr{
-    border: 2px solid black;
-}
+
 p{
     color: green;
 }
@@ -11,6 +9,13 @@ ul{
     list-style: none;
 
 }
+hr{
+    border: solid 2px black;
+}
 
-
-
+#hi{
+    border: dotted 4px green;
+}
+span{
+    font-weight: 700;
+}
