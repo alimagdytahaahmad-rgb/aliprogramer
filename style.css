@@ -80,7 +80,7 @@ section{
     display: inline-block;
     margin-bottom: 40px;
     border-radius: 15px;
-    transition: 9.7s ease;
+    transition: 0.7s ease;
 
 }
 .main-btn:hover{
@@ -132,5 +132,25 @@ section{
     font-weight: 700;
     margin: 10px;
 }
-
-
+.projects{
+    background-color: #000016;
+}
+.project-card{
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    margin: 20px;
+    transition: 0.7s ease;
+    border-radius: 10px;
+}
+.project-card:hover{
+    transform: scale(1.1);
+}
+.project-card:hover .project-images{
+    opacity: 0.9;
+}
+.project-images img{
+    width: 100%;
+}
